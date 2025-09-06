@@ -23,12 +23,13 @@ echo " 6- run metasploit                              - "
 echo " 7- download zphisher                           - "
 echo " 8- download ELARABYGBS                         - "
 echo " 9- SCAN ip or domain by nmap                   - "
-echo " 10- download HACKINGTOOL                        - "
+echo " 10- download HACKINGTOOL                       - "
 echo " 11- run HACKINGTOOL                            - "
 echo " 12- Trying SQLMAP ON TARGET                    - "
-echo " 13- HELP                                       - "
-echo " 14- UPDATE AND UPGRADE YOUR LINUX              - "
-echo " 15- CONTACT WITH ME                            - "
+echo " 13- CREATE A QR CODE FROM LINK                 - "
+echo " 14- HELP                                       - "
+echo " 15- UPDATE AND UPGRADE YOUR LINUX              - "
+echo " 16- CONTACT WITH ME                            - "
 echo " ------------------------------------------------- "
 echo " enter the number of option you want to run  :   "
 }
@@ -102,16 +103,26 @@ case $choice in
 		sqlmap -u $TARGET --dbs --batch
 		;;
 	13)
+		sudo apt install qrencode -y
+		clear
+		author
+		echo "creating a QR code "
+		read -p "ENTER THE LINK TO MAKE QR " LINK
+		read -p "ENTER NAME TO SAFE QR CODE " QRN
+		qrencode -o $QRN "$LINK"
+		echo "THE QR CREATED YOU CAN FIND IT IN TOOL FILE"
+		;;
+	14)
 		echo" YOU CAN USE MY TOOL BY WRITE A NUMBER OF THE TASK YOU WANT "
 		echo" 1 : FOR PHISHING ATTACK & 2 : FOR LOCATION BY LINK & 3,4 FOR HACK ANDROID BY APK"
 		echo" 5 : TO RUN METASPLOIT & 6,7,9 TO DOWNLOAD TOOLS & 8 TO USE NMAP ON IP OR DOMAIN"
 		echo" 10 : TO RUN HACKING TOOL ( A MULTITASK TOOL ) , 11 : TO RUN SQLMAP "
 		;;
-	14) 
+	15) 
 		echo "UPDATE AND UPGRADING"
 		sudo apt-get update -y && sudo apt-get upgrade -y
 		;;
-	15)
+	16)
 		echo " ENG : EL3ARABY "
 		echo " github : https://github.com/b7of "
 		echo " instagram : https://instagram.com/el3rraby "
