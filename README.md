@@ -36,7 +36,7 @@ A simple **Bash-based launcher** that provides quick access to popular penetrati
 
 ```bash
 git clone https://github.com/b7of/MT_ELARABY.git
-cd ELARABY-Tool
+cd MT_ELARABY
 chmod +x tool.sh
 ```
 
