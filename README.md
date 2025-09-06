@@ -20,7 +20,7 @@ A simple **Bash-based launcher** that provides quick access to popular penetrati
 - 📱 **Android Payload Generator** – Create a payload for Android devices  
 - 📦 **Embed Payload in APK** – Insert a payload into an original APK file  
 - ⚡ **Metasploit Launcher** – Run Metasploit directly from the menu  
-
+- ⚡ **ALOT OF ANOTHER TASKS TRY BY YOUR SELF**
 ---
 
 ## 📋 Requirements
@@ -35,7 +35,7 @@ A simple **Bash-based launcher** that provides quick access to popular penetrati
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/b7of/MT_ELARABY/
+git clone https://github.com/b7of/MT_ELARABY.git
 cd ELARABY-Tool
 chmod +x tool.sh
 ```
