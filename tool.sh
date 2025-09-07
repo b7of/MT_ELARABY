@@ -32,9 +32,10 @@ echo " 15- INSTAINSANE TO BRUTE IG ACCOUNT            - "
 echo " 16- install APKTOOL 2.9.3 ,apksigner,zipalign  - "
 echo " 17- REQUARED ADD NAME TO YOUR LINUX TERMINAL   - "
 echo " 18- ADD NAME TO YOUR LINUX TERMINAL            - "
-echo " 19- HELP                                       - "
-echo " 20- UPDATE AND UPGRADE YOUR LINUX              - "
-echo " 21- CONTACT WITH ME                            - "
+echo " 19- TEMP MAIL TOOL                             - "
+echo " 20- HELP                                       - "
+echo " 21- UPDATE AND UPGRADE YOUR LINUX              - "
+echo " 22- CONTACT WITH ME                            - "
 echo -e "\e[31m ------------------------------------------------ \e[0m"
 echo -e "\e[32m enter the number of option you want to run  :   \e[0m"
 }
@@ -176,15 +177,19 @@ case $choice in
 		fi
 		;;
 	19)
+		echo " TEMP MAIL TOOL "
+		python3 tempmail.py
+		;;
+	20)
 		echo " YOU CAN USE MY TOOL BY WRITE A NUMBER OF THE TASK YOU WANT "
 		echo " if you have any question contact me "
 		firefox https://instagram.com/el3rraby
 		;;
-	20) 
+	21) 
 		echo "UPDATE AND UPGRADING"
 		sudo apt-get update -y && sudo apt-get full-upgrade -y
 		;;
-	21)
+	22)
 		echo -e "\e[32m ENG : EL3ARABY "
 		echo " github : https://github.com/b7of "
 		echo " instagram : https://instagram.com/el3rraby "
