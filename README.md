@@ -20,7 +20,9 @@ A simple **Bash-based launcher** that provides quick access to popular penetrati
 - 📱 **Android Payload Generator** – Create a payload for Android devices  
 - 📦 **Embed Payload in APK** – Insert a payload into an original APK file  
 - ⚡ **Metasploit Launcher** – Run Metasploit directly from the menu  
-- ⚡ **ALOT OF ANOTHER TASKS TRY BY YOUR SELF**
+- 🎭**write your name on terminal**
+- 📡 **scan network , domain , ip**
+- - ⚡ **ALOT OF ANOTHER TASKS TRY BY YOUR SELF**
 ---
 
 ## 📋 Requirements
