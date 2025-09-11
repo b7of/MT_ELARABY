@@ -128,6 +128,7 @@ case $choice in
 		read -p "ENTER NAME TO SAVE QR CODE " QRN
 		qrencode -o $QRN "$LINK"
 		echo "THE QR CREATED YOU CAN FIND IT IN TOOL FILE"
+		open $QRN
 		;;
 	14)
 		echo "DOWNLOADING INSTAINSANE"
